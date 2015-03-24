@@ -1,0 +1,66 @@
+﻿.body{
+ background:url(http://subtlepatterns.com/patterns/congruent_pentagon.png);
+  padding:1em;
+  border-radius:1em;
+  font-family:微軟正黑體,cursive;
+  max-height:100%;
+  max-width:100%;
+}
+.article{
+  padding:0em 1em 1em 1em;
+}
+.inner{
+  max-width:100%;
+  padding-left:40%;
+  padding-right:30%;
+  padding-bottom:9%;
+}
+footer{
+  box-sizing:border-box;
+  bottom:2em;
+  width:100%;
+}
+input{
+  padding:0.3em 1em;
+  background:rgba(10,200,200,0.5);
+  border:1px;
+  border-radius:1em;
+  width:125px;
+}
+input[type="radio"]{
+  padding:0px;
+  width:20px;
+}
+button{
+  background-color:rgba(255,150,150,0.8);
+  border-radius:1em;
+  border:1em;
+  padding:0.5em;
+  font-family:微軟正黑體;
+  font-weight:bold;
+  font-size:15px;
+}
+
+label,h1{
+  background:rgba(150,240,150,0.7);
+  padding:0.3em 0.5em;
+  border-radius:1em;
+  margin:1em;
+}
+.man{
+  background:rgba(125,200,255,1);
+  color:white;
+}
+.woman{
+    background:rgba(245,125,200,1);
+  color:white;
+}
+h1{
+  background:rgba(130, 192, 192,0.5);
+  color:rgb(66,80,150);
+    text-align:center;
+}
+.copyright{
+  padding-left:50%;
+  margin-left:-100px;
+}

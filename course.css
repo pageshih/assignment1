@@ -1,0 +1,53 @@
+﻿article {
+ background:url(http://subtlepatterns.com/patterns/school.png);
+    padding:1em;
+  border-radius:1em;
+  font-family: Lucida Grande,Microsoft JhengHei,sens-serif;
+  font-size:100%
+    position:relative;
+}
+#bigtitle{
+  font-size:210%;
+  color:rgba(50,50,20,0.5);
+}
+th,
+.side h4{
+  font-size:115%;
+  background:rgba(200,150,150,1);
+  padding:0.2em;
+  border-radius:0.5em;
+  color:rgba(100,0,0,0.5);
+}
+td{
+  background:rgba(180,200,200,1);
+  padding:0.2em;
+  border-radius:0.5em;
+  color:#497288;
+}
+th{
+  font-size:110%;
+  color:#FFD1D1;
+}
+label.course-number{
+  font-size:90%;
+  color:#A74954;
+}
+label.notice{
+  color:#B66383;
+}
+.main,.side{
+  display:inline-block;
+  float:right;
+}
+.side{
+  padding:1.5em;
+  margin:1em;
+  border-radius:1em;
+ background:rgba(200,150,150,0.5);
+}
+ul.ability{
+  list-style-type:none;
+}
+ul.ability>li:nth-child(odd){
+  background-color:rgba(255,255,255,0.5);
+}
