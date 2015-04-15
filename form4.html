@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://bootswatch.com/sandstone/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+  <title>form</title>
+</head>
+<body class="container">
+        <h1>
+    學生資料登錄
+    </h1>
+  <div class="row">
+  <div class="col-sm-6">
+
+    <div class="form-group has-success">
+  <label class="control-label" for="name">姓名</label>
+  <input type="text" class="form-control" id="name" placeholder="Name">
+</div>
+    <div class="form-group has-error">
+  <label class="control-label" for="grade">系級</label>
+  <input type="text" class="form-control" id="grade" placeholder="Department">
+</div>
+       <div class="form-group has-success">
+  <label class="control-label" for="number">學號</label>
+  <input type="text" class="form-control" id="number" placeholder="Student No.">
+</div>
+
+ <div class="form-group">
+   <p class="text-danger">
+     <label class="col-lg-2 control-label">性別</label>
+      <div class="col-lg-10">
+        <div class="radio">
+          <label class="text-danger">
+            <input type="radio" name="sexual" id="men" value="option1">
+            男
+          </label>
+        </div>
+        <div class="radio">
+          <label class="text-danger">
+           <input type="radio" name="sexual" id="women" value="option2">
+            女
+          </label>
+        </div>
+      </div>
+    </div>
+    </p>
+  </div>
+        <div class="col-sm-6">
+       <div class="form-group has-success">
+       <label class="control-label" for="birth">
+         生日
+       </label>
+       <input type="date" id="birth" class="form-control" >
+         </div>
+
+             <div class="form-group has-error">
+      <label class="control-label" for="phone">
+        手機
+      </label>
+      <input type="tel" id="phone" class="form-control" placeholder="Phone"> 
+  </div>
+   <div class="form-group has-success">
+      <label class="control-label" for="mail">
+        E-mail
+      </label>
+      <input type="email" class="form-control" id="mail" placeholder="Email">
+    </div>
+
+          <a href="#" class="btn btn-default">送出</a>
+   
+  </div>
+  </div>
+    <footer>
+      <span class="copyright">
+        2015 copyright All Right Reserved.</span>
+      </footer>
+  </div>
+</body>
+</html>
